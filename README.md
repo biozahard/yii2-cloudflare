@@ -11,7 +11,7 @@ Cloudflare API
 'components' => [
         'cloudflare' => [
             'class'         => 'biozahard\cloudflare\CloudflareApi',
-            'apiendpoint'   => 'https://api.cloudflare.com/client/v4/',
+            'apiurl'   => 'https://api.cloudflare.com/client/v4/',
             'authkey'       => '5gds0kfdsc024ndsofsj049jisdofjsd034jw',
             'authemail'     => 'admin@mail.com',
             'sites'         => [

@@ -1,5 +1,5 @@
 {
-  "name": "biozahard/yii2-cloudflare",
+  "name": "biozahard/yii2-cloudflare-api",
   "description": "Yii2 cloudflare extension",
   "type": "yii2-extension",
   "homepage": "https://github.com/biozahard/yii2-cloudflare",
@@ -19,7 +19,7 @@
   },
   "autoload": {
     "psr-4": {
-      "biozahard\\cloudflare\\": ""
+      "biozahard\\cloudflare-api\\": ""
     }
   }
 }
