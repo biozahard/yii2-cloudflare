@@ -1,14 +1,21 @@
 Cloudflare API
 ==================
 
-Компонент Yii2 для работы с api v4.0 сервиса https://www.cloudflare.com/
+Yii2 Component for CloudFlare api v4.0. https://www.cloudflare.com/
 
-Минимальные требования — Yii2
+Minimum requirements:
+ *Yii2
+ *Curl
 
-Пример использования:
+Installation via Composer:
+`composer require biozahard/yii2-cloudflare-api`
+
+
+Configuring in config.php:
 
 ```php
 'components' => [
+		//...
         'cloudflare' => [
             'class'         => 'biozahard\cloudflare\CloudflareApi',
             'apiurl'   => 'https://api.cloudflare.com/client/v4/',
@@ -20,9 +27,10 @@ Cloudflare API
                 'anotheronesite.biz',
             ],
         ],
+		//...
 ]
 ```
 
 ***
 
-Лицензия: LGPL v3 or later
+License: LGPL v3 or later
