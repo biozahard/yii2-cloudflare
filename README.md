@@ -8,6 +8,7 @@ Minimum requirements:
  *Curl
 
 Installation via Composer:
+
 `composer require biozahard/yii2-cloudflare-api`
 
 
